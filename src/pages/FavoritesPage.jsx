@@ -18,8 +18,8 @@ const FavoritesPage = () => {
             </div>
 
             {favorites.length === 0 && (
-                <div className="flex flex-col items-center gap-4">
-                    <img src="/404.png" className="w-1/2 h-auto" />
+                <div className="flex flex-col items-center justify-center gap-4 h-[70%]">
+                    <img src="/loader.png" className="w-1/2 h-auto" />
                 </div>
             )}
         </div>
